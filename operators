@@ -1,0 +1,23 @@
+1)
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"size of char:\t"<<sizeof(char)<<endl;
+	cout<<"size of int:\t"<<sizeof(int)<<endl;
+	cout<<"size of float:\t"<<sizeof(float)<<endl;
+	cout<<"size of double:\t"<<sizeof(double)<<endl;
+}
+
+
+2)
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"enter 2 numbers"<<endl;
+	cin>>a>>b;
+	int res=a*b;
+	cout<<"product is"<<res<<endl;
+}
